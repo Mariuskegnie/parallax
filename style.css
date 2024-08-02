@@ -403,7 +403,13 @@ footer{
     display: flex;
     align-items: center;
     cursor: pointer;
+    outline: none;
 
+}
+.carte a{
+  
+    text-decoration: none;
+    color: var(--var-text-color-dark);
 }
 
 .reseau .carte:hover{
